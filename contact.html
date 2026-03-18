@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – 2324 Squadron RAF Air Cadets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch with 2324 Squadron RAF Air Cadets. Contact details, email, and enquiry form.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-primary">2324</span>
+        <span class="logo-secondary">Sqn RAFAC</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="what-we-do.html">What We Do</a></li>
+          <li><a href="squadron-info.html">Squadron Info</a></li>
+          <li><a href="join-us.html">Join Us</a></li>
+          <li><a href="cadet-resources.html">Cadet Resources</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Get in Touch</h1>
+          <p>Have questions? Want to join? Contact 2324 Squadron RAF Air Cadets today.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section">
+      <div class="container">
+        <h2>Contact Details</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Email</h3>
+            <p><a href="mailto:2324@rafac.mod.gov.uk">2324@rafac.mod.gov.uk</a></p>
+            <p>We aim to respond within 48 hours.</p>
+          </div>
+          <div class="card">
+            <h3>Location</h3>
+            <p><strong>Squirrels Lane, Buckhurst Hill </strong></p>
+            <p>See Squadron Info page for full address and directions.</p>
+          </div>
+          <div class="card">
+            <h3>Parade Times</h3>
+            <p><strong>Monday &amp; Thursday</strong></p>
+            <p>19:15–21:30</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Send Us a Message</h2>
+        <div class="card">
+          <form method="POST" action="#">
+            <p>
+              <label for="name">Your Name *</label><br>
+              <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
+            </p>
+            <p>
+              <label for="email">Email Address *</label><br>
+              <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
+            </p>
+            <p>
+              <label for="phone">Phone Number</label><br>
+              <input type="tel" id="phone" name="phone" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
+            </p>
+            <p>
+              <label for="subject">Subject *</label><br>
+              <select id="subject" name="subject" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
+                <option value="">-- Please Select --</option>
+                <option value="join">I'd like to join the squadron</option>
+                <option value="parent">Parent enquiry</option>
+                <option value="volunteer">Volunteer opportunities</option>
+                <option value="feedback">Feedback or suggestion</option>
+                <option value="other">Other</option>
+              </select>
+            </p>
+            <p>
+              <label for="message">Message *</label><br>
+              <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;"></textarea>
+            </p>
+            <p>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </p>
+          </form>
+          <p style="font-size: 0.85rem; color: #666; margin-top: 1rem;">
+            <em>* Required fields. We'll respond to your enquiry as soon as possible.</em>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="section">
+      <div class="container">
+        <h2>Follow Us</h2>
+        <div class="card">
+          <p>Connect with us on social media for updates, photos, and announcements:</p>
+          <p>
+            <a href="#" style="margin-right: 1rem;">Facebook</a>
+            <a href="#" style="margin-right: 1rem;">Twitter/X</a>
+            <a href="#" style="margin-right: 1rem;">Instagram</a>
+          </p>
+          <p><em>Links to be updated with squadron social media accounts.</em></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; <span id="year"></span> 2324 Squadron RAF Air Cadets.</p>
+        <p>This website is managed by squadron staff and cadets in line with RAF Air Cadets guidance.</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="accessibility.html">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
