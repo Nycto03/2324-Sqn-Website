@@ -318,4 +318,57 @@ a:hover {
     display: block;
     padding: 0.5rem 0;
   }
+
+    /* Tab System Styles */
+    .tab-container {
+        margin-top: 2rem;
+    }
+
+    .tab-buttons {
+        display: flex;
+        gap: 1rem;
+        border-bottom: 2px solid var(--border-soft);
+        margin-bottom: 2rem;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+    }
+
+    .tab-btn {
+        background: none;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-family: inherit;
+        font-weight: 700;
+        color: var(--text-muted);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border-bottom: 3px solid transparent;
+        white-space: nowrap;
+    }
+
+        .tab-btn.active {
+            color: var(--blue-dark);
+            border-bottom-color: var(--blue-primary);
+        }
+
+    .tab-content {
+        display: none;
+        animation: fadeIn 0.3s ease-in;
+    }
+
+        .tab-content.active {
+            display: block;
+        }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }

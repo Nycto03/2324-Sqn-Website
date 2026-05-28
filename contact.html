@@ -37,99 +37,94 @@
   </header>
 
   <main>
-    <!-- Hero section -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Get in Touch</h1>
-          <p>Have questions? Want to join? Contact 2324 Squadron RAF Air Cadets today.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Information -->
-    <section class="section">
-      <div class="container">
-        <h2>Contact Details</h2>
-        <div class="grid grid-3">
-          <div class="card">
-            <h3>Email</h3>
-            <p><a href="mailto:2324@rafac.mod.gov.uk">2324@rafac.mod.gov.uk</a></p>
-            <p>We aim to respond within 48 hours.</p>
+      <!-- Hero section -->
+      <section class="hero">
+          <div class="container hero-inner">
+              <div class="hero-text">
+                  <h1>Get in Touch</h1>
+                  <p>Have questions? Want to join? Contact 2324 Squadron RAF Air Cadets today.</p>
+              </div>
           </div>
-          <div class="card">
-            <h3>Location</h3>
-            <p><strong>Squirrels Lane, Buckhurst Hill </strong></p>
-            <p>See Squadron Info page for full address and directions.</p>
-          </div>
-          <div class="card">
-            <h3>Parade Times</h3>
-            <p><strong>Monday &amp; Thursday</strong></p>
-            <p>19:15–21:30</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Form -->
-    <section class="section section-alt">
-      <div class="container">
-        <h2>Send Us a Message</h2>
-        <div class="card">
-          <form method="POST" action="#">
-            <p>
-              <label for="name">Your Name *</label><br>
-              <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
-            </p>
-            <p>
-              <label for="email">Email Address *</label><br>
-              <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
-            </p>
-            <p>
-              <label for="phone">Phone Number</label><br>
-              <input type="tel" id="phone" name="phone" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
-            </p>
-            <p>
-              <label for="subject">Subject *</label><br>
-              <select id="subject" name="subject" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
-                <option value="">-- Please Select --</option>
-                <option value="join">I'd like to join the squadron</option>
-                <option value="parent">Parent enquiry</option>
-                <option value="volunteer">Volunteer opportunities</option>
-                <option value="feedback">Feedback or suggestion</option>
-                <option value="other">Other</option>
-              </select>
-            </p>
-            <p>
-              <label for="message">Message *</label><br>
-              <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;"></textarea>
-            </p>
-            <p>
-              <button type="submit" class="btn btn-primary">Send Message</button>
-            </p>
-          </form>
-          <p style="font-size: 0.85rem; color: #666; margin-top: 1rem;">
-            <em>* Required fields. We'll respond to your enquiry as soon as possible.</em>
-          </p>
-        </div>
-      </div>
-    </section>
+      <!-- Contact Information -->
+      <section class="section">
+          <div class="container">
+              <h2>Contact Details</h2>
+              <div class="grid grid-3">
+                  <div class="card">
+                      <h3>Email</h3>
+                      <p><a href="mailto:2324@rafac.mod.gov.uk">2324@rafac.mod.gov.uk</a></p>
+                      <p>We aim to respond within 48 hours.</p>
+                  </div>
+                  <div class="card">
+                      <h3>Location</h3>
+                      <p><strong>Squirrels Lane, Buckhurst Hill</strong></p>
+                      <p>See Squadron Info page for full address and directions.</p>
+                  </div>
+                  <div class="card">
+                      <h3>Parade Times</h3>
+                      <p><strong>Monday &amp; Thursday</strong></p>
+                      <p>19:15–21:30</p>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-    <!-- Social Media -->
-    <section class="section">
-      <div class="container">
-        <h2>Follow Us</h2>
-        <div class="card">
-          <p>Connect with us on social media for updates, photos, and announcements:</p>
-          <p>
-            <a href="#" style="margin-right: 1rem;">Facebook</a>
-            <a href="#" style="margin-right: 1rem;">Twitter/X</a>
-            <a href="#" style="margin-right: 1rem;">Instagram</a>
-          </p>
-          <p><em>Links to be updated with squadron social media accounts.</em></p>
-        </div>
-      </div>
-    </section>
+      <!-- Contact Form -->
+      <section class="section section-alt">
+          <div class="container">
+              <h2>Send Us a Message</h2>
+              <div class="card">
+                  <!-- Form submits directly to squadron email -->
+                  <form method="POST" action="mailto:2324@rafac.mod.gov.uk" enctype="text/plain">
+                      <p>
+                          <label for="name">Your Name *</label><br>
+                          <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
+                      </p>
+                      <p>
+                          <label for="email">Email Address *</label><br>
+                          <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
+                      </p>
+                      <p>
+                          <label for="subject">Subject *</label><br>
+                          <select id="subject" name="subject" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;">
+                              <option value="">-- Please Select --</option>
+                              <option value="join">I'd like to join the squadron</option>
+                              <option value="parent">Parent enquiry</option>
+                              <option value="volunteer">Volunteer opportunities</option>
+                              <option value="feedback">Feedback or suggestion</option>
+                              <option value="other">Other</option>
+                          </select>
+                      </p>
+                      <p>
+                          <label for="message">Message *</label><br>
+                          <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 0.3rem;"></textarea>
+                      </p>
+                      <p>
+                          <button type="submit" class="btn btn-primary">Send Message</button>
+                      </p>
+                  </form>
+                  <p style="font-size: 0.85rem; color: #666; margin-top: 1rem;">
+                      <em>* Required fields. We'll respond to your enquiry as soon as possible.</em>
+                  </p>
+              </div>
+          </div>
+      </section>
+
+      <!-- Social Media -->
+      <section class="section">
+          <div class="container">
+              <h2>Follow Us</h2>
+              <div class="card">
+                  <p>Connect with us on social media for updates, photos, and announcements:</p>
+                  <p>
+                      <a href="#" style="margin-right: 1rem; font-weight: bold;">Facebook</a>
+                      <a href="https://www.instagram.com/2324rafac/" target="_blank" rel="noopener noreferrer" style="margin-right: 1rem; font-weight: bold; color: var(--blue-primary);">Instagram (@2324rafac)</a>
+                  </p>
+              </div>
+          </div>
+      </section>
   </main>
 
   <footer class="site-footer">
